@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="style.css">  
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> 
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Traveling</title>
+</head>
+<body>
+    <section class="header">
+       <nav>
+          <a href="home.html"><img src="#"></a>
+          <div class="nav-links" id="navlinks">
+         <i class="glyphicon glyphicon-remove" onclick="hideMenu()"></i>
+             <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#book">BOOK</a></li>
+                <li><a href="#packages">PACKAGES</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+             </ul>
+          </div>
+         <i class="glyphicon glyphicon-align-justify" onclick="showMenu()" id="show"></i>
+       </nav>
+    <div class="text-box">
+        <h1>ADVENTURE IS WORTHWHILE</h1>
+        <p>Dicover New Places With Us, Adventure Awaits</p>
+        <form action="" class="search-bar">
+           <input type="text" placeholder="Where to">
+           <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+        </form>
+    </div>
+    </section>
+
+    <!-- booking section -->
+
+    <section class="booking" id="book">
+        <h1 class="heading">
+            <span>B</span>
+            <span>O</span>
+            <span>O</span>
+            <span>K</span>
+            <span class="space"></span>
+            <span>N</span>
+            <span>O</span>
+            <span>W</span>
+        </h1>
+        <div class="row">
+           <div class="image">
+                  <img src="Image/book-img.svg">
+           </div>
+            <form action="booking-info">
+                 <div class="inputBox">
+                      <h3>Where to</h3>
+                       <input type="text" placeholder="place name" name="place-name">
+                 </div>
+                  <div class="inputBox">
+                     <h3>How many</h3>
+                     <input type="number" placeholder="number of people" name="num-people">
+                  </div>
+                  <div class="inputBox">
+                     <h3>Arrivals</h3>
+                     <input type="date" name="arrivals">
+                  </div>
+                  <div class="inputBox">
+                     <h3>Leaving</h3>
+                     <input type="date" name="leaving">
+                  </div>
+                  <input type="submit" value="BOOK NOW" class="btn">
+            </form>
+        </div>
+    </section>
+
+     <!-- packages section -->
+ 
+     <section class="packages" id="packages">
+
+         <h1 class="heading">
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span>A</span>
+            <span>G</span>
+            <span>E</span>
+            <span>S</span>
+         </h1>
+
+         <div class="box-container">
+
+            <!-- mumbai -->
+              <div class="box">
+                  <img src="Image/p-1.jpg" alt="">
+                  <div class="content">
+                     <h3><i class="	glyphicon glyphicon-map-marker"></i>Mumbai</h3>
+                     <p>The mangroves adjoin broad tidal mudflats adjacent to the city</p>
+                     <div class="stars">
+                           <i class="glyphicon glyphicon-star"></i>
+                           <i class="glyphicon glyphicon-star"></i>
+                           <i class="glyphicon glyphicon-star"></i>
+                           <i class="glyphicon glyphicon-star"></i>
+                     </div>
+                     <div class="price">$90.00 <span>$120.00</span></div>
+                      <a href="#" class="btn">Book now</a>
+                  </div>
+              </div>
+
+              <!-- tokyo --> 
+            <div class="box">
+               <img src="Image/p-5.jpg" alt="">
+               <div class="content">
+                  <h3><i class="	glyphicon glyphicon-map-marker"></i>Tokyo</h3>
+                  <p>Dubbed as the heart of Japan, Tokyo is always an attractive destination for international visitors</p>
+                  <div class="stars">
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                  </div>
+                  <div class="price">$90.00 <span>$120.00</span></div>
+                  <a href="#" class="btn">Book now</a>
+               </div>
+            </div>
+
+            <!-- paris -->
+            <div class="box">
+               <img src="Image/p-4.jpg" alt="">
+               <div class="content">
+                  <h3><i class="	glyphicon glyphicon-map-marker"></i>Paris</h3>
+                  <p>As the capital of France, Paris always has a charm that any travel devotee wants to admire</p>
+                  <div class="stars">
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                  </div>
+                  <div class="price">$90.00 <span>$120.00</span></div>
+                  <a href="#" class="btn">Book now</a>
+               </div>
+            </div>
+
+            <!-- egypt -->
+            <div class="box">
+               <img src="Image/p-6.jpg" alt="">
+               <div class="content">
+                  <h3><i class="	glyphicon glyphicon-map-marker"></i>Egypt</h3>
+                  <p>This place is known as the "cradle" of human civilization</p>
+                  <div class="stars">
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                  </div>
+                  <div class="price">$90.00 <span>$120.00</span></div>
+                  <a href="#" class="btn">Book now</a>
+               </div>
+            </div>
+
+            <!-- Hawaii -->
+            <div class="box">
+               <img src="Image/p-2.jpg" alt="">
+               <div class="content">
+                  <h3><i class="	glyphicon glyphicon-map-marker"></i>Hawaii</h3>
+                  <p>Traveling to Hawaii, the wish of many people. When it comes to Hawaii</p>
+                  <div class="stars">
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                  </div>
+                  <div class="price">$90.00 <span>$120.00</span></div>
+                  <a href="#" class="btn">Book now</a>
+               </div>
+            </div>
+
+            <!--Ha noi -->
+            <div class="box">
+               <img src="Image/vietnam.jpg" alt="">
+               <div class="content">
+                  <h3><i class="	glyphicon glyphicon-map-marker"></i>Ha noi</h3>
+                  <p>The country that you should have visit once try out the original phở</p>
+                  <div class="stars">
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                     <i class="glyphicon glyphicon-star"></i>
+                  </div>
+                  <div class="price">$90.00 <span>$120.00</span></div>
+                  <a href="#" class="btn">Book now</a>
+               </div>
+            </div>
+
+         </div>
+
+     </section>
+
+     <!-- services -->
+
+     <section class="service" id="service">
+
+      <!-- title -->
+
+         <h1 class="heading">
+            <span>S</span>
+            <span>E</span>
+            <span>R</span>
+            <span>V</span>
+            <span>I</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+         </h1>
+          
+      <div class="box-container">
+
+         <!-- hotel -->
+         <div class="box">
+            <i class="glyphicon glyphicon-home"></i>
+            <h3>Affordable Hotels</h3>
+            <p>Staying at the best hotel even with short money</p>
+         </div>
+         
+         <!-- food and drinks -->
+         <div class="box">
+            <i class="glyphicon glyphicon-tint"></i>
+            <h3>Food and Drinks</h3>
+            <p>Try traditional food of every country you visit</p>
+         </div>
+
+         <!-- safety guide -->
+         <div class="box">
+            <i class="glyphicon glyphicon-plus"></i>
+            <h3>Safety guide</h3>
+            <p>Guide by the best guider with safety</p>
+         </div>
+
+         <!-- plane -->
+         <div class="box">
+            <i class="glyphicon glyphicon-plane"></i>
+            <h3>Faster travel</h3>
+            <p>Traveling faster with us</p>
+         </div>
+
+         <!-- adventure -->
+         <div class="box">
+            <i class="glyphicon glyphicon-globe"></i>
+            <h3>Aventrues</h3>
+            <p>Have an aventrues you ever had in your life</p>
+         </div>
+         
+      </div>
+
+     </section>
+
+     <!-- CONTACT -->
+
+     <section class="contact" id="contact">
+
+        <!-- head -->
+            <h1 class="heading">
+               <span>C</span>
+               <span>O</span>
+               <span>N</span>
+               <span>T</span>
+               <span>A</span>
+               <span>C</span>
+               <span>T</span>             
+            </h1>
+
+             <!-- picture -->
+            <div class="row">
+                 <div class="image">
+                     <img src="Image/contact-img.svg" alt="">
+                 </div>
+
+            <!-- form dien -->
+            <form action="">
+                 <div class="inputBox">
+                   <input type="text" placeholder="name">
+                   <input type="email" placeholder="email">
+                 </div>
+
+                 <div class="inputBox">
+                     <input type="number" placeholder="phone number">
+                     <input type="text" placeholder="subject">
+                 </div>
+
+                 <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                 <input type="submit" class="btn" value="Send">
+            </form>
+            </div>
+
+     </section>
+
+     <!-- footer -->  
+     <section class="footer">
+
+         <div class="box-container">
+
+            <div class="box">
+               <h3>About us</h3>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, reprehenderit labore sint praesentium debitis cumque illo recusandae velit cum quae.</p>
+            </div> 
+
+            <div class="box">
+                 <h3>Branche locations</h3>
+                 <a href="">USA</a>
+                 <a href="">Japan</a>
+                 <a href="">Paris</a>
+                 <a href="">Viet nam</a>
+                 <a href="">Egypt</a>
+            </div>
+
+            <div class="box">
+                 <h3>Quick Links</h3>
+                  <a href="#">HOME</a>
+                  <a href="#book">BOOK</a>
+                  <a href="#packages">PACKAGES</a>
+                  <a href="#service">SERVICES</a>
+                  <a href="#contact">CONTACT</a>
+            </div>
+
+         </div>
+
+     </section>
+
+
+
+
+
+
+    <script>
+        
+      var navlinks = document.getElementById("navlinks");
+      function showMenu(){
+         navlinks.style.right = "0";
+         document.getElementById("show").style.visibility ="hidden";
+      }
+      function hideMenu(){
+         navlinks.style.right ="-200px";
+          document.getElementById("show").style.visibility = "visible";
+      }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="search.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="#"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="glyphicon glyphicon-remove" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#book">BOOK</a></li>
+                    <li><a href="#packages">PACKAGES</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-user"></i></a></li>
+                </ul>
+            </div>
+            <i class="glyphicon glyphicon-align-justify" onclick="showMenu()" id="show"></i>
+            <div class="box">
+                <form action="search" class="search-bar" method="post">
+                    <input type="text" placeholder="Where to" name="search">
+                    <button type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                </form>
+               <div class="box-container">
+                   <div class="box">
+                          <a href="">Destination</a>
+                   </div>
+                    <div class="box">
+                        <a href="">Hotels</a>
+                    </div>
+                    <div class="box">
+                        <a href="">Hotel Price</a>
+                    </div>
+                    <div class="box">
+                        <a href="">Destination Price</a>
+                    </div>
+                    <div class="box">
+                        <a href="">Hot place</a>
+                    </div>
+               </div>
+            </div>
+        </nav>
+    </section>
+</body>
+</html>
